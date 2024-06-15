@@ -1,0 +1,65 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  max-width: 1000px;
+  margin: 100px auto 0px;
+  background-color: #e7e7e7;
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+  min-width: 502px;
+  padding: 0 20px;
+  overflow-wrap: break-word;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+form {
+  margin-bottom: 56px;
+}
+
+form input {
+  font-size: 24px;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+
+form button {
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 3px;
+  background-color: #009432;
+}
+
+ul#lista-tarefas {
+  list-style-position: inside;
+}
+
+ul#lista-tarefas li {
+  margin-bottom: 5px;
+}
+
+ul#lista-tarefas:last-child {
+  margin-bottom: 56px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
